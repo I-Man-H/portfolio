@@ -182,4 +182,28 @@ button {
   .lead {
     font-size: 18px;
   }
+
+  .role {
+  font-weight: 600;
+  color: #7dd3fc;
+  margin-bottom: 8px;
+  }
+
+  .role::before {
+  content: "Role: ";
+  color: #94a3b8;
+  font-weight: normal;
+  }
+
+  .responsibilities {
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #cbd5e1;
+  }
+
+.responsibilities li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  }
+
 }

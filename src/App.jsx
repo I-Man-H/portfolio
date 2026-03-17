@@ -34,30 +34,38 @@ export default function App() {
 const courses = [
   {
     title: "Digital Signal Processing",
+    role: "Lecturer",
   },
   {
     title: "Signals and Systems",
+    role: "Lecturer",
   },
   {
     title: "Technology and Engineering Management",
+    role: "Tutor and Project Mentor",
     link: "https://i-man-h.github.io/I-TEM/",
   },
   {
     title: "Introduction to Systems Engineering",
+    role: "Tutor",
     link: "https://i-man-h.github.io/SystemEngineering/",
   },
   {
     title: "Power Systems and Power Electronics",
+    role: "Tutor and Lab Demonstrator",
   },
   {
     title: "Introduction to Electronics",
+    role: "Tutor and Lab Demonstrator",
   },
   {
     title: "Professional Practice 1",
+    role: "Tutor and Project Mentor",
     link: "https://i-man-h.github.io/PP1/",
   },
   {
     title: "Electronic Circuits",
+    role: "Tutor and Lab Demonstrator",
   },
 ];
 
@@ -114,6 +122,14 @@ const courses = [
   return (
     <section className="section">
       <h2>Courses</h2>
+
+      <p className='lead'>
+        I have been involved in teaching the following courses as both a lecturer
+        and tutor at the university level. My teaching focuses on delivering
+        clear theoretical foundations, practical implementation skills, and
+        engaging learning experiences for students.
+      </p>
+
       <div className="card-grid">
         {courses.map((course) => {
           // If course has a link → clickable card
@@ -127,6 +143,7 @@ const courses = [
                 rel="noreferrer"
               >
                 <h3>{course.title}</h3>
+                <p className="role">{course.role}</p>
                 <p>Open course page</p>
               </a>
             );
@@ -136,11 +153,23 @@ const courses = [
           return (
             <div className="card" key={course.title}>
               <h3>{course.title}</h3>
-              <p>Course page coming soon</p>
+              <p>Course Material Coming Soon.</p>
             </div>
           );
         })}
       </div>
+      <div className="section">
+        <h2>Teaching Responsibilities </h2>
+
+        <ul className="responsibilities">
+          <li>Designing and delivering lectures and tutorials </li>
+          <li>Preparing course materials including slides, labs, and assignments</li>
+          <li>Developing MATLAB and simulation-based lab exercises</li>
+          <li>Marking assignments, exams, and providing detailed feedback</li>
+          <li>Supporting students through consultations and mentoring</li>
+          <li>Improving course content based on student feedback and outcomes</li>
+        </ul>
+        </div>
     </section>
   );
 }
