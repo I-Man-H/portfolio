@@ -197,7 +197,7 @@ const courses = [
             </a>
             <a className="card paper-link" href="https://www.youtube.com/@I-ManTT">
               <h3>YouTube</h3>
-              <p>Please Like and Subscribe my YouTube Channel.</p>
+              <p>Please Like and Subscribe to my YouTube Channel.</p>
             </a>
           </div>
         </section>
@@ -215,7 +215,7 @@ const courses = [
               tournament content, and training-related media.
             </p>
             <p>
-              <a href="https://www.youtube.com/@I-ManTT">Please Like and Subscribe my YouTube Channel.</a>
+              <a href="https://www.youtube.com/@I-ManTT">Please Like and Subscribe to my YouTube Channel.</a>
             </p>
           </div>
         </section>
