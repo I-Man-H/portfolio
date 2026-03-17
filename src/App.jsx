@@ -112,27 +112,27 @@ const courses = [
 
     if (page === "courses") {
       return (
-        <section className="section">
-          <h2>Courses</h2>
-          <div className="card-grid">
-            {courses.map((course) => (
-              <a
-                className="card paper-link"
-                key={course.title}
-                href={course.link}
-                target={course.link.startsWith("http") ? "_blank" : "_self"}
-                rel="noreferrer"
-              >
-                <h3>{course.title}</h3>
-                <p>
-                  {course.link === "#" ? "Course page coming soon" : "Open course page"}
-                </p>
-              </a>
-            ))}
-          </div>
-        </section>
-      );
-    }
+       <section className="section">
+        <h2>Courses</h2>
+        <div className="card-grid">
+          {courses.map((course) => (
+            <a
+              className="card paper-link"
+              key={course.title}
+              href={course.link}
+              target={course.link.startsWith("http") ? "_blank" : "_self"}
+              rel="noreferrer"
+            >
+              <h3>{course.title}</h3>
+              <p>
+                {course.link === "#" ? "Course page coming soon" : "Open course page"}
+              </p>
+            </a>
+          ))}
+        </div>
+      </section>
+    );
+  }
 
     if (page === "research") {
       return (
