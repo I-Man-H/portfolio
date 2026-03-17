@@ -215,7 +215,7 @@ const courses = [
               tournament content, and training-related media.
             </p>
             <p>
-              <a href="#">Add your YouTube channel link here</a>
+              <a href="https://www.youtube.com/@I-ManTT">Please Like and Subscribe my YouTube Channel.</a>
             </p>
           </div>
         </section>
