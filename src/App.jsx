@@ -58,13 +58,19 @@ export default function App() {
     {
       title: "Fall risk assessment using single IMU",
       venue: "IEEE MeMeA, 2024",
-      link: "#",
+      link: "https://ieeexplore.ieee.org/abstract/document/10596880",
     },
     {
       title:
         "Locomotive Syndrome Assessment in Older Adults Using a Single Inertial Measurement Unit",
       venue: "IEEE INERTIAL, 2023",
       link: "https://doi.org/10.1109/INERTIAL56358.2023.10103944",
+    },
+    {
+      title:
+        "Performance analysis of a postural balance assessment mat prototype using inertial sensor",
+      venue: "IEEE Sensors, 2022",
+      link: "https://ieeexplore.ieee.org/abstract/document/9967035/",
     },
   ];
 
