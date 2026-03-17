@@ -255,7 +255,7 @@ const courses = [
       <>
         <section className="hero">
           <p className="eyebrow">
-            MPhil Candidate · Machine Learning · Computer Vision · Signal
+            Researcher · Machine Learning · Computer Vision · Signal
             Processing
           </p>
           <h1>Iman Hosseini</h1>
