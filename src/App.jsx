@@ -31,16 +31,35 @@ export default function App() {
     },
   ];
 
-  const courses = [
-    "Digital Signal Processing",
-    "Signals and Systems",
-    "Technology and Engineering Management",
-    "Introduction to Systems Engineering",
-    "Power Systems and Power Electronics",
-    "Introduction to Electronics",
-    "Professional Practice 1",
-    "Electronic Circuits",
-  ];
+const courses = [
+  {
+    title: "Digital Signal Processing",
+  },
+  {
+    title: "Signals and Systems",
+  },
+  {
+    title: "Technology and Engineering Management",
+    link: "https://i-man-h.github.io/I-TEM/",
+  },
+  {
+    title: "Introduction to Systems Engineering",
+    link: "https://i-man-h.github.io/SystemEngineering/",
+  },
+  {
+    title: "Power Systems and Power Electronics",
+  },
+  {
+    title: "Introduction to Electronics",
+  },
+  {
+    title: "Professional Practice 1",
+    link: "https://i-man-h.github.io/PP1/",
+  },
+  {
+    title: "Electronic Circuits",
+  },
+];
 
   const publications = [
     {
@@ -97,9 +116,18 @@ export default function App() {
           <h2>Courses</h2>
           <div className="card-grid">
             {courses.map((course) => (
-              <div className="card" key={course}>
-                <h3>{course}</h3>
-              </div>
+              <a
+                className="card paper-link"
+                key={course.title}
+                href={course.link}
+                target={course.link.startsWith("http") ? "_blank" : "_self"}
+                rel="noreferrer"
+              >
+                <h3>{course.title}</h3>
+                <p>
+                  {course.link === "#" ? "Course page coming soon" : "Open course page"}
+                </p>
+              </a>
             ))}
           </div>
         </section>
