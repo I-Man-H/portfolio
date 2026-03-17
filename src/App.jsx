@@ -148,11 +148,11 @@ export default function App() {
             </a>
             <a className="card paper-link" href="https://www.linkedin.com/in/i-man-hosseini/">
               <h3>LinkedIn</h3>
-              <p>Add your LinkedIn URL</p>
+              <p>Find me on LinkedIn</p>
             </a>
             <a className="card paper-link" href="https://www.youtube.com/@I-ManTT">
               <h3>YouTube</h3>
-              <p>Add your table tennis channel URL</p>
+              <p>Please Like and Subscribe my YouTube Channel.</p>
             </a>
           </div>
         </section>
